@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Home Page | CBIR</title>
+  
+</head>
+<body>
+    <div class="popup">
+        <button id="close">&times;</button>
+        <h1 class="title-popup">What is CBIR</h1>
+        <p class="popup-para">
+            Content-Based Image Retrieval (CBIR) is a method of searching for images in a database based on the content of the keywords, texts or images. This approach is particularly useful when the metadata is not available or is not accurate.
+        </p>
+        <p class="popup-para">
+            Overall, CBIR is a powerful tool for searching and retrieving images based on their visual content, and has many applications in a wide range of fields.
+        </p>
+        <!--<a href="#" class="cont">Continue</a>-->
+    </div>
+    
+
+<section class="body-size">
+    <center>
+    <h1 class="heading">CONTENT BASED <span>IMAGE RETRIEVAL</span> </h1>
+    <section id="course">
+        <div class="courses">
+            <input type="text" id="animalInput" class="inputText" placeholder="Input Your Data" required />
+            <button onclick="displayImages()" class="btn">Show <i class="fas fa-paper-plane"></i></button>
+        </div>
+    </section>
+
+    
+    </center><div id="imageContainer" class="image"></div>
+</section> 
+
+    <!-- Footer Text -->
+    <footer id="footer">
+        <div class="row">
+            <div class="col">
+                <div class="logo">Final Year Project</div>
+                <p>© 2024 All rights reserved. <br><br>
+                This Major Project is developed by SHASWAT MUDGAL (2005110100102), RITVIK SINHA (2005110100096), SUHAIB (2005110100116) and HIMANSHU TOMAR (2005110100047) - Final year students of Bachelor of Technology in Computer Science and Engineering.</p>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">
+            Under Guidance of GL BAJAJ GROUP OF INSTITUTIONS, MATHURA.
+        </p>
+    </footer>
+
+    <script src="JS/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Playfair+Display&family=Poppins:wght@200;300;400;600;700&family=Roboto:wght@300&family=Sen:wght@400;700;800&family=Yellowtail&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    font-size: 120%;
+    background: #F8F8FF;
+  }
+  
+  .header {
+    width: 50%;
+    margin: 60px auto 0px;
+    color: #00C805;
+    background: #f4f8f8;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+  }
+  form, .content {
+    width: 50%;
+    min-height: 400px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .input-group {
+    margin: 15px 5px 15px 5px;
+  }
+  .input-group input {
+    height: 40px;
+    width: 400px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  .input-group input::placeholder{
+    font-family: 'Playfair Display', serif;
+  }
+  .btn {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: #00C805;
+    border: none;
+    border-radius: 12px;
+  }
+  .btn:hover{
+    background-color: rgb(14, 248, 14);
+  }
+  p a{
+    text-decoration: none;
+    color: #0077ff;
+    font-size: 17px;
+  }
+  p a:hover{
+    color: #00C805;
+  }
+  .error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
